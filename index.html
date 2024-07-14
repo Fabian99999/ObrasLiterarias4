@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>insertar im&aacute;genes</title>
+    <style>
+        caption{
+            color:green;
+            text-transform: uppercase/*Convierte a mayusculas*/;
+
+        }
+        caption,th{
+            font-size: 28px;
+            font-weight: bold;/*Muestra la fuente en negrita*/
+
+        }
+        th{
+            color: #d8cc24;/*El color en formato hexadecimal*/
+
+        }
+        h1{
+            color: #067915;
+        }
+        h2{
+            color: #d8cc24;
+        }
+        h3{
+            color: #da5c5cd2;
+        }
+        table{
+            border: 1px solid orange;/*Parámetros:grosor,estilo y color de border*/
+
+        }
+        th{
+            border: 1px solid orange;
+        }
+        td{
+            border: 1px solid orange;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Obras Literarias</caption>
+        <thead>
+            <thead>
+                <tr>
+                    <th>Obra literaria</th>
+                    <th>G&eacute;nero Literario</th>
+                    <th>Autor(es)</th>
+                    <th>Ver obra</th>
+                    <th>multimedia</th>
+                </tr>
+            </thead>
+        </thead>
+        <tbody>
+            <tr>
+                <td><h1>Cachorro de tigre</h1></td>
+                <td><h2>Cuento</h2></td>
+                <td><h3>Enrique Lopez Albujar</h3></td>
+                <td><a href="https://cuentosbonitos.weebly.com/cachorro-de-tigre.html"
+                    target="_blank"><img src="imagenes/Cachorro_de_Tigre.jpg"
+                    width="240" height="140" alt="Cachorro de tigre" title="Cachorro de tigre"></a></td>
+                    <td style="text-align: center;">
+                    <audio controls>
+                        <source src="multimedia/horse.ogv" type="audio/ogg">
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td><h1>tortololita</h1></td>
+                <td><h2>Cuento</h2></td>
+                <td><h3>Roberto Aliaga - Paula Alendra</h3></td>
+                <td><a href="https://coleccionandocuentos.blogspot.com/2017/07/tortololita.html" 
+                    target="_blank"><img src="imagenes/0tortololita.jpg" 
+                    width="240" height="240" alt="tortololita" title="tortololita"></a></td>
+                    <td>
+                        <video width="460" height="215" controls poster="imagenes/Captura.PNG">
+                        <source src="multimedia/mov_bbb.mp4" type="video/mp4"/>
+                        <p>tu navegador no soporta HTML5</p>     
+                        </video>
+                    </td>
+            </tr>
+            <tr>
+                <td><h1>Don Dimas de la Tijereta <br><br><a href=
+                    "imagenes/Don-Dimas-de-la-Tijereta.pdf" target="_blank"
+                    >Ver PDF </a></h1></td>
+                    <td><h2>Cuento</h2></td>
+                    <td><h3>Ricardo Palma Soriano <br><br><a href="imagenes/RicardoPalma.pdf"
+                         download="biografiaRP">Descargar</a></h3></td>
+                         <td><a href="https://cuentosbonitos.weebly.com/don-dimas-de-la-tijereta.html"
+                             target="_blank"><img src="imagenes/tradiciones-peruanas-don-dimas-de-la-tijereta.jpg" 
+                             width="240" height="240" alt="Don Dimas de la Tijereta" title="Don Dimas de la Tijereta"></a></td>
+                             <td><iframe width="460" height="215" src="https://www.youtube.com/embed/lNvm5ZSEaNs"
+                                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; Clipboard-write; encrypted-media; 
+                                 gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>                                
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Fuente:</th>
+                <td colspan="4">
+                    *<a href="https://cuentosbonitos.weebly.com/" target="_blank"
+                    >Cuentos bonitos</a>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
